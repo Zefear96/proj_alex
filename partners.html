@@ -10,10 +10,22 @@
             integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
             crossorigin="anonymous"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Teko:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="./css/styles.css" />
         <title>Project Alex</title>
     </head>
-    <body>
+    <body id="body-partners">
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
@@ -139,7 +151,7 @@
                             aria-label="Поиск"
                             id="search-inp"
                         />
-                        <button class="btn btn-outline-success" type="submit">
+                        <button class="btn btn-outline-light" type="submit">
                             Search
                         </button>
                     </form>
@@ -147,11 +159,11 @@
             </div>
         </nav>
 
-        <!-- partners -->
-        <div class="container">
-            <div class="container text-block">
-                <h2>Our partners</h2>
-                <p>
+        <!-- block partners -->
+        <div class="container my-5 text-center">
+            <div class="container text-block mt-5">
+                <h1>Our partners</h1>
+                <p class="mt-4 mb-5">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
                     unde eaque quisquam vero maxime eum veritatis excepturi
                     vitae, consequuntur enim nobis molestiae optio numquam
@@ -164,6 +176,30 @@
                     dignissimos animi eveniet repellat, architecto maiores non
                     accusantium corporis ab, iste aliquid quidem neque commodi
                     obcaecati assumenda ducimus esse quisquam minima ratione.
+                </p>
+            </div>
+
+            <div
+                class="container text-block mt-5 text-center d-flex flex-column align-items-center"
+            >
+                <h2 class="mb-4">Worldwide</h2>
+                <iframe
+                    src="https://giphy.com/embed/9tA6H1madRvUc"
+                    width="480"
+                    height="270"
+                    frameborder="0"
+                    class="giphy-embed"
+                    allowfullscreen
+                    id="worldwide-giph"
+                ></iframe>
+                <p class="mt-4 mb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                    unde eaque quisquam vero maxime eum veritatis excepturi
+                    vitae, consequuntur enim nobis molestiae optio numquam
+                    voluptatum, modi mollitia quas eveniet? Ea? Ipsam
+                    necessitatibus facilis facere illo velit, soluta vel ab
+                    repudiandae fugiat commodi ipsum expedita atque reiciendis,
+                    delectus sed praesentium.
                 </p>
             </div>
 
@@ -327,7 +363,27 @@
                 </section>
                 <!-- Section: Form -->
 
-                <!-- Section: Text -->
+                <!-- Section: Text & Icons -->
+                <div>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
                 <section class="mb-4">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -339,25 +395,34 @@
                 <!-- Section: Text -->
 
                 <!-- Section: Links -->
-                <section class="">
+                <section class="links-footer">
                     <!--Grid row-->
                     <div class="row">
                         <!--Grid column-->
                         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                            <h5 class="text-uppercase">Links</h5>
+                            <h5 class="text-uppercase">Pages</h5>
 
                             <ul class="list-unstyled mb-0">
                                 <li>
-                                    <a href="#!" class="text-white">Link 1</a>
+                                    <a
+                                        href="C:\Users\eazzy\Desktop\bootcamp_js29\proj_Alex\index.html"
+                                        class="text-white text-decoration-none"
+                                        >Home</a
+                                    >
                                 </li>
                                 <li>
-                                    <a href="#!" class="text-white">Link 2</a>
+                                    <a
+                                        href="C:\Users\eazzy\Desktop\bootcamp_js29\proj_Alex\aboutUs.html"
+                                        class="text-white text-decoration-none"
+                                        >About Us</a
+                                    >
                                 </li>
                                 <li>
-                                    <a href="#!" class="text-white">Link 3</a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="text-white">Link 4</a>
+                                    <a
+                                        href="C:\Users\eazzy\Desktop\bootcamp_js29\proj_Alex\partners.html"
+                                        class="text-white text-decoration-none"
+                                        >Partners</a
+                                    >
                                 </li>
                             </ul>
                         </div>
@@ -365,20 +430,14 @@
 
                         <!--Grid column-->
                         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                            <h5 class="text-uppercase">Links</h5>
+                            <h5 class="text-uppercase">Customers Service</h5>
 
                             <ul class="list-unstyled mb-0">
                                 <li>
-                                    <a href="#!" class="text-white">Link 1</a>
+                                    <a href="#!" class="text-white">Support</a>
                                 </li>
                                 <li>
-                                    <a href="#!" class="text-white">Link 2</a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="text-white">Link 3</a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="text-white">Link 4</a>
+                                    <a href="#!" class="text-white">Payments</a>
                                 </li>
                             </ul>
                         </div>
@@ -386,20 +445,17 @@
 
                         <!--Grid column-->
                         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                            <h5 class="text-uppercase">Links</h5>
+                            <h5 class="text-uppercase">My Account</h5>
 
                             <ul class="list-unstyled mb-0">
                                 <li>
-                                    <a href="#!" class="text-white">Link 1</a>
+                                    <a href="#!" class="text-white">Login</a>
                                 </li>
                                 <li>
-                                    <a href="#!" class="text-white">Link 2</a>
+                                    <a href="#!" class="text-white">Settings</a>
                                 </li>
                                 <li>
-                                    <a href="#!" class="text-white">Link 3</a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="text-white">Link 4</a>
+                                    <a href="#!" class="text-white">Info</a>
                                 </li>
                             </ul>
                         </div>
@@ -407,20 +463,24 @@
 
                         <!--Grid column-->
                         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                            <h5 class="text-uppercase">Links</h5>
+                            <h5 class="text-uppercase">Contact Info</h5>
 
                             <ul class="list-unstyled mb-0">
                                 <li>
-                                    <a href="#!" class="text-white">Link 1</a>
+                                    <a href="#!" class="text-white"
+                                        >Phone: +(999)-888-777-666</a
+                                    >
                                 </li>
                                 <li>
-                                    <a href="#!" class="text-white">Link 2</a>
+                                    <a href="#!" class="text-white"
+                                        >Email: solomaker@gmail.com</a
+                                    >
                                 </li>
                                 <li>
-                                    <a href="#!" class="text-white">Link 3</a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="text-white">Link 4</a>
+                                    <a href="#!" class="text-white"
+                                        >Address: Nightcity, Marlboro avenue,
+                                        21/2</a
+                                    >
                                 </li>
                             </ul>
                         </div>
@@ -442,6 +502,7 @@
             <!-- Copyright -->
         </footer>
         <!-- Footer -->
+
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
             integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

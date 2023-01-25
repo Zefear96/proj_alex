@@ -1,9 +1,20 @@
+body {
+       font-family: 'Teko', sans-serif;
+}
+
+h1 {
+       font-size: 3rem;
+}
+
+p {
+       font-family: 'Open Sans', sans-serif; 
+}
+
 .text-block {
-      
        color: white;
 }
 
-body {
+#body-partners {
        background-size: cover;
        background-image: url('https://www.workday.com/content/dam/web/en-us/images/backgrounds/hero_partners_overview_3840x2160.jpg/jcr:content/renditions/cq5dam.mob.600.337.jpg');
 }
@@ -11,4 +22,53 @@ body {
 #aboutUs {
        background-size: cover;
        background-image: url('https://media.istockphoto.com/id/1284691550/vector/blue-abstract-geometric-dynamic-shape-paper-layers-subtle-background-vector.jpg?s=612x612&w=0&k=20&c=8a0N0F6hcHc08o2aZgTZdreUMhTxS24Zp61KgdQzGgM=');
+} 
+
+a {
+       text-decoration: none;
+}
+
+a {
+       background-image: linear-gradient(
+         to right,
+         #54b3d6,
+         #54b3d6 50%,
+         white 50%
+       );
+       background-size: 200% 100%;
+       background-position: -100%;
+       display: inline-block;
+       padding: 5px 0;
+       position: relative;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       transition: all 0.3s ease-in-out;
+     }
+     
+     a:before{
+       content: '';
+       background: #54b3d6;
+       display: block;
+       position: absolute;
+       bottom: -3px;
+       left: 0;
+       width: 0;
+       height: 3px;
+       transition: all 0.3s ease-in-out;
+     }
+     
+     a:hover {
+      background-position: 0;
+     }
+     
+     a:hover::before{
+       width: 100%;
+     }
+
+#showUsername {
+       color: aqua !important;
+}
+
+#worldwide-giph {
+       border: 1px solid;
 }
